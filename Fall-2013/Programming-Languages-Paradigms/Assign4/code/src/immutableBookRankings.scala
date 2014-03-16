@@ -45,10 +45,10 @@ def getTitleRankConcurrent(isbnList : List[String]): List[MappedBook] = {
 
 def getSignedRequests(isbnNo : String) = {
 	val helperReq = SignedRequestsHelper.getInstance("webservices.amazon.com",
-		"AKIAINAKPWYBS6VNHB5A", "6q50ZWDlmGFKBOckNH0JQpfj19LM72fFLlu1/xrb")
+		"************", "**********")
 
 	val params : java.util.Map[String,String] =  new java.util.HashMap[String, String]()
-	params.put("AssociateTag", "vmeka-20")
+	params.put("AssociateTag", "******")
 	params.put("Operation", "ItemLookup")
 	params.put("ResponseGroup", "Large")
 	params.put("SearchIndex", "Books")

@@ -46,8 +46,8 @@ public class InformationRetrieverFromXML {
     }
 
     public static void setParametersForAmazonRequest(XmlGenerator xmlGenerator){
-        xmlGenerator.setAccessID("AKIAINAKPWYBS6VNHB5A");
-        xmlGenerator.setSecretAccessKey("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");
+        xmlGenerator.setAccessID("**********");
+        xmlGenerator.setSecretAccessKey("***********");
         xmlGenerator.setEndPoint("webservices.amazon.com");
     }
 
