@@ -39,7 +39,7 @@ public class XmlGenerator{
             SignedRequestsHelper helper = SignedRequestsHelper.getInstance(getEndPoint(), getAccessID(), getSecretAccessKey());
 
             Map<String, String> params =  new HashMap<>();
-            params.put("AssociateTag", "****");
+            params.put("AssociateTag", "vmeka-20");
             params.put("Operation", "ItemLookup");
             params.put("ResponseGroup", "Large");
             params.put("SearchIndex", "Books");

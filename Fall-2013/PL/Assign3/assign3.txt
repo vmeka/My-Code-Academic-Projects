@@ -22,3 +22,11 @@ Then make the code concurrent, using the traditional threading and synchronizati
 Use proper locks to avoid race conditions.
 
 In addition to printing the result, print also the time each of the solutions take (in seconds).
+
+Total [100]: 100
+Program works [20]:
+Sequential version code quality [20]:
+Concurrent version code quality [20]:
+Thread safety [20]:
+Overall code, output, etc. [20]:
+

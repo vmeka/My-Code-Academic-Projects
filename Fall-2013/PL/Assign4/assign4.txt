@@ -64,3 +64,13 @@ concentrate on the functionality more than managing the low level constructs.
 
 
 
+
+Total [100]: 98
+Program works [20]:
+Sequential version code quality [20]:
+Concurrent version code quality [20]:
+Overall code, output, etc. [20]:
+
+Discussions [20]: -2
+Rather then dumping the segemnt of code, need to identify what's happening in actor and 
+separately on the receive, and how each of these provide concurency and thread-safety.

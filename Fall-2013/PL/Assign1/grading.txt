@@ -1,0 +1,13 @@
+Total [100]: 100
+
+Program works [20]:
+Output from the two programs are identical [10]:
+Code quality for part 1 [10]:
+Code quality for part 2 [10]:
+Code quality for part 3 [10]:
+Code quality for part 4 [10]:
+Good separation of functions/responsibilities [10]:
+Usage of language idioms [10]:
+Using good conventions [10]:
+
+
