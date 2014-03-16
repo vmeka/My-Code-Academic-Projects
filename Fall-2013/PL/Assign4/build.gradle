@@ -1,8 +1,0 @@
-task(run) {
-    def prefix = System.getProperty("os.name").startsWith("Win") ? 'cmd /c ' : ''
-	def semicolon = System.getProperty("os.name").startsWith("Win") ? ';' : ':'
-    def command = "${prefix}scala -classpath lib/amazonapi.jar${semicolon}lib/commons-codec-1.8.jar code/src/immutableBookRankings.scala"
-    println command.execute().text
-}
-
-defaultTasks 'run'
