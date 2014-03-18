@@ -1,0 +1,8 @@
+task(run) {
+  def prefix = System.getProperty("os.name").startsWith("Win") ? 'cmd /c ' : ''
+  def command = "${prefix}scala code/src/TowersOfHanoi/TowersOfHanoi.scala"
+  println command.execute().text
+
+}
+
+defaultTasks 'run'

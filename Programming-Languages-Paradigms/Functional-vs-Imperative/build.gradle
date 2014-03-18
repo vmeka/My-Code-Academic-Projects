@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+test.scanForTestClasses = false
+
+sourceSets.main.java.srcDirs = ['code/src']
+
+dependencies { 
+	compile 'org.apache.commons:commons-lang3:3.0'
+	compile fileTree(dir: 'lib', includes: ['*.jar'])
+}
+
+repositories {
+  mavenCentral()
+}
+
+task(runui, dependsOn: 'classes', type: JavaExec) {
+	main = 'mutabilityAndImperativeStyle.AlphabetFrequencyImperativeStyle'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+defaultTasks 'clean','runui'
